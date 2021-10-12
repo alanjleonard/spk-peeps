@@ -1,0 +1,125 @@
+:root {
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(360px, 1fr) 3fr;
+}
+
+#list p {
+  margin: 0.5rem 0;
+}
+
+.sidebar {
+  background: #3f438e;
+  border-right: solid 0.6rem #EC6E4B;
+  overflow: scroll;
+  padding: 2rem;
+  height: 100vh;
+}
+
+h1.logo {
+  text-align: center;
+}
+h1.logo img {
+  width: 100%;
+}
+
+.peepWrapper {
+  margin: 2rem 0 0 0;
+  border-radius: 0rem;
+}
+.peepWrapper .mainInfo {
+  background: #967BB1;
+  color: #f2f2f1;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+}
+.peepWrapper .mainInfo h2 {
+  grid-column: 1/3;
+  border-bottom: solid 0.6rem #EC6E4B;
+  text-align: justify;
+}
+.peepWrapper .mainInfo h2 span {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.peepWrapper .mainInfo h2 span:nth-child(odd) {
+  font-weight: 900;
+}
+.peepWrapper .mainInfo .location .locationName {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: x-large;
+}
+.peepWrapper .mainInfo .weatherDescp {
+  justify-self: end;
+}
+.peepWrapper .secondaryInfo {
+  background: #967BB1;
+  text-align: center;
+  padding: 1rem;
+}
+.peepWrapper .day-night-wrapper {
+  position: relative;
+  border-radius: 50%;
+  border: solid 1px;
+  width: 20rem;
+  height: 20rem;
+}
+.peepWrapper .day-night-wrapper .time {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  background: white;
+  z-index: 9;
+  top: 2.5rem;
+  left: 2.5rem;
+}
+.peepWrapper .day-night-wrapper .time p {
+  text-align: center;
+  font-size: 3.2rem;
+  font-family: "courier new";
+}
+.peepWrapper .sunwrapper {
+  position: absolute;
+  width: 100%;
+  transform-origin: center;
+  top: calc(50% - 1.25rem);
+  z-index: 10;
+}
+.peepWrapper .sunwrapper .sun {
+  border-radius: 50%;
+  background: gold;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: #967BB1;
+  border-radius: 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=styles.css.map */
