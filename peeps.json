@@ -1,57 +1,14 @@
 {
   "peeps": [
     {
-      "names": ["Tony"],
-      "location": "Ottawa, Ontario, Canada"
-    },
-    {
-      "names": ["Parm", "Nick", "Chloë", "Julien"],
-      "location": "Vancouver"
-    },
-    {
-      "names": ["Tom"],
-      "location": "Smithers"
-    },
-    {
       "names": ["AL"],
       "location": "Hamilton, Ontario, Canada"
     },
     {
       "names": [
-        "Will",
-        "Mike",
-        "Cara",
-        "Mehule",
-        "Darren",
-        "Dana",
-        "James T.",
-        "Alex"
+        "Will"
       ],
       "location": "Prince George"
-    },
-    {
-      "names": ["Melissa"],
-      "location": "V1A"
-    },
-    {
-      "names": ["James B"],
-      "location": "Summerland, British Columbia"
-    },
-    {
-      "names": ["Natilia", "Jesse"],
-      "location": "Calgary"
-    },
-    {
-      "names": ["Brian B"],
-      "location": "Ladysmith, British Columbia"
-    },
-    {
-      "names": ["Alastair"],
-      "location": "London"
-    },
-    {
-      "names": ["Brian M"],
-      "location": "Richmond, Virginia"
     }
   ]
 }
