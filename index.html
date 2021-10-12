@@ -14,6 +14,7 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <title>SPK-PEEPS</title>
   </head>
   <body>
     <template id="peep">
@@ -31,7 +32,7 @@
           </div>
           <div class="weatherDescp">
             {{ #weather.weather }}
-            <img src="https://openweathermap.org/img/wn/{{ icon }}@2x.png" />
+            <img aria-hidden='true' src="https://openweathermap.org/img/wn/{{ icon }}@2x.png" />
             {{/weather.weather}}
           </div>
         </div>
@@ -81,7 +82,7 @@
     <main>
       <div class="sidebar">
         <h1 class='logo'>
-          <img src='logo.svg' />
+          <img alt='GEO Peeps logo' src='logo.svg' />
         </h1>
         <div id="list"></div>
       </div>
